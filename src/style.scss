@@ -1,0 +1,38 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.card {
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	width: 300px;
+	margin: 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	transition: transform 0.2s;
+
+	&:hover {
+		transform: scale(1.05);
+	}
+
+	&-img {
+		width: 100%;
+		height: 200px;
+		object-fit: cover;
+	}
+
+	&-body {
+		padding: 16px;
+	}
+
+	&-title {
+		font-size: 1.5em;
+		margin: 0;
+	}
+
+	&-description {
+		color: #555;
+	}
+}
